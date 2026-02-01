@@ -1,0 +1,57 @@
+baseURL: https://example.org/
+languageCode: ja
+title: AIエージェント構築ガイド
+theme: hextra
+
+markup:
+  # unsafeをtrueに設定すると、Markdown内でHTMLタグが使用可能になる
+  goldmark:
+    renderer:
+      unsafe: true
+
+  # コードブロックのシンタックスハイライト設定
+  highlight:
+    noClasses: false
+
+# メニューの構成
+menu:
+  main:
+    - name: Docs
+      pageRef: /docs
+      weight: 1
+    - name: About
+      pageRef: /about
+      weight: 2
+    # - name: Contact ↗
+    #   url: "https://github.com/xxxx"
+    #   weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/imfing/hextra-starter-template"
+      params:
+        icon: github
+    # - name: Twitter
+    #   weight: 6
+    #   url: "https://twitter.com/"
+    #   params:
+    #     icon: x-twitter
+
+params:
+  navbar:
+    displayTitle: ture # 左上のタイトルを表示するかどうか
+    displayLogo: false # 左上のロゴを表示するかどうか
+    logo:
+      src: "/images/logo.png" # ロゴ画像のパス
+      alt: "Site Logo" # ロゴ画像の代替テキスト
+
+  footer:
+    displayCopyright: false # フッターの著作権表示を表示するかどうか
+    displayPoweredBy: true # フッターのPowered by Hugo表示を表示するかどうか
+
+  editURL:
+    enable: false # 編集リンクを有効にするかどうか
+    base: "https://github.com/imfing/hextra-starter-template/edit/main/content" # 編集リンクのベースURL
