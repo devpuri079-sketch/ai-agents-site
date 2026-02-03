@@ -20,7 +20,7 @@ pip install python-dotenv
 pip install -q -U google-genai
 ```
 
-[サンプルコート参考サイト](https://ai.google.dev/gemini-api/docs/quickstart?hl=ja)
+[サンプルコード参考サイト](https://ai.google.dev/gemini-api/docs/quickstart?hl=ja)
 
 .envファイル用意
 apiキーの取得方法はこちら
