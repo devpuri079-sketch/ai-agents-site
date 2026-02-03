@@ -1,6 +1,6 @@
 baseURL: https://devpuri079-sketch.github.io/ai-agents-site/
 languageCode: ja
-title: AIエージェント構築ガイド
+title: AI Agent Notes
 theme: hextra
 
 markup:
@@ -19,8 +19,8 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 1
-    - name: About
-      pageRef: /about
+    - name: Overview
+      pageRef: /overview
       weight: 2
     # - name: Contact ↗
     #   url: "https://github.com/xxxx"
