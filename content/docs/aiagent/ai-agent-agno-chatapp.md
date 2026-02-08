@@ -31,7 +31,7 @@ load_dotenv()
 
 # Using Google AI Studio
 agent = Agent(
-	model=Gemini(id="gemini-2.0-flash"),
+	model=Gemini(id="gemini-2.5-flash"),
 	markdown=True,
 )
 

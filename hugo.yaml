@@ -31,7 +31,7 @@ menu:
         type: search
     - name: GitHub
       weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      url: "https://github.com/devpuri079-sketch/agno-gemini-first-steps"
       params:
         icon: github
     # - name: Twitter
