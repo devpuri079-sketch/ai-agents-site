@@ -68,7 +68,7 @@ load_dotenv()
 async def on_chat_start():
 
 	agent = Agent(
-		model=Gemini(id="gemini-2.0-flash"),
+		model=Gemini(id="gemini-2.5-flash"),
 		description="あなたは、さまざまな分野で人々を支援する有能なAIエージェントです。",
 		instructions=["内容をよく理解し、正確かつ丁寧に回答してください。"],
 		db=InMemoryDb(),
